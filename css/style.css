@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	font-family: 'Slabo 27px', serif;
+}
+body {
+	margin: 0 auto;
+	min-height: 100%;
+	background: url(../img/bg-page.png) center center no-repeat no-repeat;
+	background-size: cover;
+	color: #d8d8d9;
+	font-size: 14px;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #111a28;
+	margin: 0 auto;
+}
+.content {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.logo {
+	margin: 20px 0 10px 20px;
+}
+.content__slider {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
+.content__img {
+	display: flex;
+	margin: 5% auto;
+}
+.content__img img {
+	width: 95%;
+	height: auto;
+	min-width: 90%;
+	min-height: 60%;
+	overflow: hidden;
+}
+.content__item {
+	width: 25%;
+	display: flex;
+	padding: 0;
+	margin: auto;
+	margin-top: 55px;
+}
+.content__list {
+	display: block;
+	background: red;
+	width: 10px;
+	height: 10px;
+	border: 1px solid grey;
+	border-radius: 50%;
+	margin: auto;
+}
+.content__list a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.content__description {
+	width: 40%;
+	text-align: left;
+	margin: 0 25px 0 0;
+}
+.content__description h1 {
+	font-size: 24px;
+	font-weight: 100;
+	margin: 0;
+}
+.content__description h3 {
+	font-weight: 100;
+	margin: 5px 0;
+}
+.content__star a {
+	text-decoration: none;
+}
+.wingdings {
+	font-family: Wingdings;
+	font-size: 18px;
+	margin: 0;
+	color: #9da1a6;
+}
+.bg__stars--cold {
+	color: #f7bf16;
+}
+.bg-active:hover, .bg-active:focus, .bg-active:active {
+	background: #1f273f;
+	transform: scale(1.3);
+	transition: 1s ease-in-out;
+}
+.content__star {
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+.content__select {}
+.content__select select {
+	width: 72px;
+	height: 33px;
+	background: #111a28;
+	color: #d8d8d9;
+}
+.content__btn {
+	display: block;
+	max-width: 183px;
+	height: 39px;
+	text-decoration: none;
+	border: 1px solid grey;
+	background: #202835;
+	color: #d8d8d9;
+	text-align: center;
+	margin: 10px 0;
+	padding-top: 4%;
+}
+.bg-white {
+	background: #fff;
+}
+.bg-red {
+	background: #ed3333;
+}
+.bg-blue {
+	background: #29e3ea;
+}
